@@ -13,7 +13,7 @@ const server = http.createServer(app);
 const io = socketio(server, {
   cors: {
     origin:
-      "https://60b530b691e9480007f51fcf--unruffled-euclid-aab17b.netlify.app/",
+      "https://60b530b691e9480007f51fcf--unruffled-euclid-aab17b.netlify.app",
     methods: ["GET", "POST"],
   },
 });
